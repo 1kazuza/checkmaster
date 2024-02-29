@@ -4,3 +4,5 @@ Hello, this is a GitHub project for learning proposes. I want to master git as s
 Anything else...
 
 First lessons in GitHub!!
+
+Let's make some changes now.
