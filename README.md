@@ -1,8 +1,7 @@
-# new-project
+#CheckMaster
 
-Hello, this is a GitHub project for learning proposes. I want to master git as soon as I can. I'm adding some details here for helping me. Now, that's it!! One change more. 
-Anything else...
+CheckMaster is an user-friendly "to-do list app" that helps you stay organized and on top of your tasks. With CheckMaster, you can easily create and manage your to-do list tasks.
 
-First lessons in GitHub!!
+CheckMaster - Take control of your tasks!
 
-Let's make some changes now.
+
