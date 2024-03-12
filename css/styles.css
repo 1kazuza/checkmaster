@@ -1,3 +1,19 @@
 body {
-    background-color: blue;
+    background-color: rgba(0, 100, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    min-height: 100vh;    
+}
+
+#todo-app {
+    flex-direction: column;
+}
+
+h1 {
+    background-color: rgb(200, 255, 150);    
+}
+
+#todo-container {
+    flex-direction: column;
 }

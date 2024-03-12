@@ -11,15 +11,19 @@
         <title>CheckMaster - A to-do list app</title>
     </head>
     <body>
-        <h1>The CheckMaster To Do List</h1>
-        <ul>
-            <li><input type="checkbox" id="item1"/>Read a book</li>
-            <li><input type="checkbox" id="item2"/>Play a game</li>
-            <li><input type="checkbox" id="item3"/>Buy credits</li>
-            <li><input type="checkbox" id="item4"/>Pay bills</li>
-        </ul>
-        <input type="text" id="new-item" placeholder="Enter a new item"/>
-        <button onclick="addItem()">Add Item</button>
+        <div id="todo-app">
+            <h1>The CheckMaster To Do List</h1>
+            <div id="todo-container">
+                <ul id="todo-list">
+                    <li><input type="checkbox" id="item1"/>Read a book</li>
+                    <li><input type="checkbox" id="item2"/>Play a game</li>
+                    <li><input type="checkbox" id="item3"/>Buy credits</li>
+                    <li><input type="checkbox" id="item4"/>Pay bills</li>
+                </ul>
+                <input type="text" id="new-item" placeholder="Enter a new item"/>
+                <button onclick="addItem()">Add Item</button>
+            </div>
+        </div>
     <script src="./js/scripts.js"></script>
     </body>
 </html>
