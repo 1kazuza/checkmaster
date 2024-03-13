@@ -27,8 +27,12 @@ form {
     padding: 5px;
 }
 
+form:hover {
+    background-color: rgba(0, 255, 100, 0.5);
+}
+
 #new-item {
     width: 100%;
     padding: 5px;
-    margin: 5px 0  5px 0;
+    margin: 5px 0 5px 0;
 }
