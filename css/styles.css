@@ -21,3 +21,9 @@ h1:hover {
 #todo-container {
     flex-direction: column;
 }
+
+#new-item {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0  5px 0;
+}
