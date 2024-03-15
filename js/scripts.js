@@ -6,3 +6,6 @@ function tasks() {
     list.appendChild(item);
     document.getElementById("new-item").value = "";
 }
+
+const inputField = document.querySelector("new-item");
+inputField.addEventListener("change", validateInput);
