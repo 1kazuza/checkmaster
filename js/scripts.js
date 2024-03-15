@@ -9,3 +9,12 @@ function tasks() {
 
 const inputField = document.querySelector("new-item");
 inputField.addEventListener("change", validateInput);
+
+function validateInput(event) {
+    const inputValue = event.target.value;
+    if (inputValue === "") {
+        console.log("Please, enter a value!");
+    } else {
+        console.log("Insert this value: ", inputValue);
+    }
+}
