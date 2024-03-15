@@ -14,6 +14,7 @@ function validateInput(event) {
     const inputValue = event.target.value;
     if (inputValue === "") {
         console.log("Please, enter a value!");
+        return false;
     } else {
         console.log("Insert this value: ", inputValue);
     }
