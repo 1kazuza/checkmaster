@@ -8,7 +8,7 @@ function tasks() {
 }
 
 const inputField = document.querySelector("new-item");
-inputField.addEventListener("change", validateInput);
+inputField.addEventListener('change', validateInput);
 
 function validateInput(event) {
     const inputValue = event.target.value;
